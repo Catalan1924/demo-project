@@ -1,6 +1,6 @@
 *
 {
-    font-family: 'Times New Roman', Times, serif;font-size: medium;font-weight: 200;background-color: rgb(15, 67, 15);margin: 0;padding: 0;border: 0;text-align: center;text-decoration: solid;
+    font-family: 'Times New Roman', Times, serif;font-size: medium;font-weight: 200;background-color: rgb(87, 166, 179);:rgb(83, 136, 158) : 0;padding: 0;border: 0;text-align: center;text-decoration: solid;
 }
 nav ul li {
     font-family: 'Times New Roman', Times, serif;font-size: medium;font-weight: 200;margin: 10;padding: 10;border: 0;text-align: left;text-decoration: underline;
@@ -10,4 +10,10 @@ li{
 }
 img{
     border: 20;
+}
+header h1{
+    text-size-adjust: 16;
+}
+body{
+    background-image: image();
 }
