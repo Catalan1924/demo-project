@@ -1,20 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job application</title>
-</head>
-<body>
-  <Form action="submit">
-   <label for="Firstname">First name</label> 
-   <input type="text" name="Firstname"required>
-   <label for="Lastname">Last name</label> 
-   <input type="text" name="Lastname"required>
-   <label for="Username"> Username</label> 
-   <input type="text" name="Username"required>
-   <label for="Password">Password</label> 
-   <input type="password" name="Password"required>
-  </Form>  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job site</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="submit">
+      <h2>Job application Form</h2>
+      <hr />
+      <label for="firstname" id="firstname">firstname</label>
+      <input
+        type="text"
+        name="firstname"
+        placeholder="Enter your firstname"
+        required
+      />
+      <label for="lastname" id="lastname">lastname</label>
+      <input
+        type="text"
+        name="lastname"
+        placeholder="Enter your lastname"
+        required
+      />
+      <label for="email" id="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        placeholder="Enter your email"
+        required
+      />
+      <select name="Job Category" id="job-category">
+        <option value="Choose your Job category" disabled>
+          Choose your desired Job
+        </option>
+        <option value="Engineering">Engineering</option>
+        <option value="Chef">Chef</option>
+        <option value="Doctor">Doctor</option>
+        <option value="GoalKeeper">GoalKeeper</option>
+        <option value="Architecture">Architecture</option>
+      </select>
+      <p>What is your gender</p>
+      <input type="radio" name="gender" id="male" value="male" />
+      <label for="male" id="male">Male</label>
+      <input type="radio" name="gender" id="female" value="female" />
+      <label for="female" id="female">Female</label>
+      <input type="radio" name="gender" id="not-say" value="not-say" />
+      <label for="not say" id="not-say">not say</label>
+      <p>What are your skills</p>
+      <input type="checkbox" name="coding" id="coding" />
+      <label for="coding" id="coding">Coding</label>
+      <input type="checkbox" name="pastry" id="pastry" />
+      <label for="pastry" id="pastry">pastry</label>
+      <input type="checkbox" name="plumbing" id="plumbing" />
+      <label for="plumbing" id="plumbing">plumbing</label>
+      <input type="checkbox" name="cooking" id="cooking" />
+      <label for="cooking" id="cooking">cooking</label>
+      <input type="checkbox" name="drawing" id="drawing" />
+      <label for="drawing" id="drawing">drawing</label>
+      <input type="checkbox" name="skiing" id="skiing" />
+      <label for="skiing" id="skiing">skiing</label>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+    <p>
+      All new technologies have their tipping points where they go from
+      enthusiast to mainstream. Artificial intelligence, a term coined by John
+      McCarthy in 1956 that has long held the imagination of many, has seemingly
+      now hit that tipping point, but not for the reason scientists and science
+      fiction writers could have guessed: Japanese anime cartoons. Some three
+      weeks after OpenAI rolled out a significant upgrade to ChatGPT-4o, which
+      allowed users to create images, such as images in the style of Project
+      Ghibli, AI has arguably hit its tipping point, with Chief Executive
+      Officer Sam Altman (pictured, Ghibli style) revealing that the company has
+      seen its user base double in the last three weeks. Altman made the
+      revelation on stage during a discussion with TED curator Chris Anderson on
+      Friday, but exactly how many users ChatGPT now has isn’t entirely clear.
+      The number could be 800 million or 1 billion, depending on how you take
+      Altman’s comments.
+      <br />
+      Forbes reported an interaction between the two on stage in which Anderson
+      asked Altman, “How many users do you have?” Altman responded by saying, “I
+      think the last time we said was 500 million weekly actives and it is
+      growing very rapidly.” Then Anderson continued, “You told me that it like
+      doubled in just a few weeks,” to which Altman replies, “I said that
+      privately, but I guess…” That would put ChatGPT’s user figure at 1
+      billion.
+    </p>
+    <table>
+      <h2>
+        Jobs offered and their salaries
+        <hr />
+      </h2>
+      <thead>
+        <tr>
+          <th>Job category</th>
+          <th>Job salary</th>
+        </tr>
+      </thead>
+      <br />
+      <tbody>
+        <tr>
+          <td>Enginering</td>
+          <td>$2500</td>
+        </tr>
+        <tr>
+          <td>Chef</td>
+          <td>$1500</td>
+        </tr>
+        <tr>
+          <td>GoalKeeper</td>
+          <td>$5000</td>
+        </tr>
+        <tr>
+          <td>Architecture</td>
+          <td>$2000</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>
