@@ -1,0 +1,13 @@
+*
+{
+    font-family: 'Times New Roman', Times, serif;font-size: medium;font-weight: 200;background-color: rgb(15, 67, 15);margin: 0;padding: 0;border: 0;text-align: center;text-decoration: solid;
+}
+nav ul li {
+    font-family: 'Times New Roman', Times, serif;font-size: medium;font-weight: 200;margin: 10;padding: 10;border: 0;text-align: left;text-decoration: underline;
+}
+li{
+    text-align: left;
+}
+img{
+    border: 20;
+}
